@@ -11,9 +11,9 @@ public class ifCetakKRS16 {
     if (uktlunas){
         System.out.println("Pembayaran UKT sudah lunas");
         System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
-
+    }else{
+        System.out.println("Registrasi ditolak, silahkan lakukan pemabayaran UKT");
     }
-
 
 }
 }
