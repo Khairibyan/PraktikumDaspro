@@ -15,6 +15,7 @@ public class ifCetakKRS16 {
         System.out.println("Registrasi ditolak, silahkan lakukan pemabayaran UKT");
     }
 
+    
 }
 }
 
