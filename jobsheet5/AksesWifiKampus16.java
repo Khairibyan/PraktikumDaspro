@@ -9,14 +9,12 @@ public class AksesWifiKampus16 {
         System.out.print("Masukkan jenis pengguna (dosen/mahasiswa): ");
         String jenisPengguna = sc.nextLine().trim();
 
-        // Hanya ditanyakan bila pengguna mahasiswa
         int sks = 0;
         if (jenisPengguna.equalsIgnoreCase("mahasiswa")) {
             System.out.print("Masukkan jumlah SKS yang diambil: ");
             sks = sc.nextInt();
         }
 
-        // Logika utama sesuai flowchart
         if (jenisPengguna.equalsIgnoreCase("dosen")) {
             System.out.println("Akses WiFi diberikan (dosen).");
         } else if (jenisPengguna.equalsIgnoreCase("mahasiswa")) {
