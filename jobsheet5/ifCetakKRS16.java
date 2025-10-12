@@ -15,6 +15,13 @@ public class ifCetakKRS16 {
         System.out.println("Registrasi ditolak, silahkan lakukan pemabayaran UKT");
     }
 
+       String hasil = uktlunas
+                ? "Pembayaran UKT terverifikasi, silakan cetak KRS"
+                : "Registrasi ditolak, silakan lakukan pembayaran UKT terlebih dahulu";
+
+        System.out.println(hasil);
+    sc.close();
+
 }
 }
 
